@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    color: white;
+    font-family: cursive
+}
+
+.container{
+    border: solid rgb(255, 255, 255) 5px;
+    margin-top: 10%;
+    width: 30%;
+    border-radius: 50px;
+    background-color: black;
+    
+}
+
+#game{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    width: 300px;
+    margin: auto;
+}
+
+.case{
+    border: solid rgb(255, 255, 255) 2px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 50px;
+}
+button{
+    margin-bottom: 10px;
+    height: 30px;
+    width: 150px;
+}
