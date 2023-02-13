@@ -82,7 +82,7 @@ function winVerif(){
 
     //change player
     goPlayer = goPlayer === "X" ? "O" : "X"
-    state.innerHTML = tourJoueur()
+    state.innerHTML = playerTurn()
 }
 
  //restart game
